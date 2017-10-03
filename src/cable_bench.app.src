@@ -1,0 +1,16 @@
+{application, cable_bench,
+ [{description, "Anycable benchmark tool"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { cable_bench_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
